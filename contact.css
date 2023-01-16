@@ -1,0 +1,111 @@
+body{
+	margin:0;
+	padding:0;
+	background:#fff;
+	font-family: 'Raleway',sans-serif;
+	color: #fff;
+	height: 100%;
+	width: 100%;
+	background:url('overlay.png'),url('banner1.jpg');
+	background-position: top;
+	background-size:cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+.banner .navbar{
+	margin-top:2%;
+}
+.banner .navbar-brand{
+	color: #fff;
+	font-size:1.8em;
+	font-weight: 700;
+	margin-left: 10%;
+}
+.banner .nav{
+	margin-right:10%; 
+}
+.banner .nav li a{
+	color:#aaa;
+	font-size: 1.2em;
+}
+.banner .info{
+	margin-top:13%;
+	transform: translateY(-15%);
+}
+.banner .info h1{
+	font-size: 2.5em;
+	font-weight: 700;
+	color: #fff;
+	letter-spacing: 2px;
+}
+.banner .info p{
+	font-size: 2em;
+	font-weight: 500;
+	color: #aaa;
+	letter-spacing: 2px;
+}
+.banner .info a{
+	margin-left:50%;
+	transform: translateX(-50%);
+	color: #fff;
+	background: #e91d43;
+	padding:10px 20px; 
+	font-size: 2em;
+	font-weight: 600;
+}
+.banner .info a:hover{
+	background: #e91e63;
+}
+
+.head{
+    background-color: rgb(47, 126, 132);
+    border-radius: 5px;
+    margin-top: -40px;
+    -webkit-box-shadow: -1px 3px 40px 4px rgba(65,235,210,1);
+    -moz-box-shadow: -1px 3px 40px 4px rgba(65,235,210,1);
+    box-shadow: -1px 3px 40px 4px rgba(65,235,210,1);
+}
+
+.effect-1{
+    border: 0;
+    outline: none;
+    width: 100%;
+    padding: 7px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.effect-1 ~ .focus-border{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background-color: rgb(47, 126, 132);
+    transition: 0.4s;
+}
+
+.effect-1:Focus ~ .focus-border{
+    width: 100%;
+    transition: 0.4s;
+    left: 0;
+}
+
+.btn1{
+    background: rgb(47, 126, 132);
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 150px;
+}
+
+.btn1:hover{
+    -webkit-box-shadow: -1px 3px 40px 4px rgba(65,235,210,1);
+    -moz-box-shadow: -1px 3px 40px 4px rgba(65,235,210,1);
+    box-shadow: -1px 3px 40px 4px rgba(65,235,210,1);
+}
+
+p{
+    color: #0b0b0b;
+}

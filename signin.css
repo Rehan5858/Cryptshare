@@ -1,0 +1,54 @@
+:root{
+    --primary-font-family: 'Poppins', sans-serif;
+    --light-white: #f5f8fa;
+    --gray: #5e6278;
+    --gray-1: #e3e3e3;
+}
+
+
+.banner{
+    height: 100%;
+
+}
+
+.wrapper {
+    color: black;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.wrapper input{
+    background-color: var(--light-white);
+    border-color: var(--light-white);
+    color: var(--gray);
+}
+
+.wrapper input:focus{
+    box-shadow: none;
+}
+
+.wrapper .submit_btn{
+    padding: 15px;
+    font-weight: 500;
+}
+
+.wrapper .login_with{
+    padding: 15px;
+    font-size: 15px;
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
+}
+
+.wrapper .submit_btn:focus,
+.wrapper .login_with:focus{
+    box-shadow: none;
+}
+
+.wrapper .login_with:hover{
+    background-color: var(--gray-1);
+    border-color: var(--gray-1);
+}
+
+.wrapper .login_with img{
+    max-width: 8%;
+}
